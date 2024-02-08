@@ -1,1 +1,0 @@
-{"node_id": 4157, "instances": [{"measurement_id": 10527, "measurement_desc_id": 16, "measurement_desc": "Combined speedtest.net and web page load test", "network_id": 18, "mcc": "242", "mnc": "14", "iccid": "89470715000045831745", "container": "dreibh/speedtest", "start_time": "2023-10-11 07:00:00", "stop_time": "None"}]}

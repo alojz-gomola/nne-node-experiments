@@ -1,1 +1,0 @@
-{"node_id": 899, "instances": [{"measurement_id": 9672, "measurement_desc_id": 1, "measurement_desc": "RTT measurement", "network_id": 9, "mcc": "260", "mnc": "01", "iccid": null, "container": "dreibh/udpping", "start_time": "2017-05-24 12:38:21", "stop_time": "None"}]}
