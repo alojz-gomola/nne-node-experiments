@@ -12,7 +12,7 @@
             "collection_seconds": 1,
             "export_mode": "monroe",
             "json_indent": "None",
-            "results_compression": false
+            "results_compression": true
         },
         {
             "measurement_id": 20002,
