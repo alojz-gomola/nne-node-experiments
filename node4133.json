@@ -1,0 +1,44 @@
+{
+    "node_id": 4133,
+    "instances": [
+        {
+            "measurement_id": 20001,
+            "measurement_desc_id": 24,
+            "measurement_desc": "Metadata collector",
+            "container": "metadata",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "pull_seconds": 1,
+            "collection_seconds": 1,
+            "export_mode": "monroe",
+            "json_indent": "None",
+            "results_compression": false
+        },
+        {
+            "measurement_id": 10380,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 1,
+            "mcc": "242",
+            "mnc": "1",
+            "iccid": "863305040253295",
+            "container": "udpping",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "telenor0"
+        },
+        {
+            "measurement_id": 10382,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 2,
+            "mcc": "242",
+            "mnc": "2",
+            "iccid": "863305040227513",
+            "container": "udpping",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "telia0"
+        }
+    ]
+}
