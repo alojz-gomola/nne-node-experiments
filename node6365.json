@@ -18,7 +18,7 @@
             "measurement_id": 16002,
             "measurement_desc_id": 1,
             "measurement_desc": "RTT measurement",
-            "network_id": 1,
+            "network_id": 18,
             "mcc": "242",
             "mnc": "14",
             "iccid": "89470715000039670042",
