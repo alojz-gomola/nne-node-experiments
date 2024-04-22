@@ -28,19 +28,6 @@
             "logical_interface": "en0"
         },
         {
-            "measurement_id": 20004,
-            "measurement_desc_id": 1,
-            "measurement_desc": "RTT measurement",
-            "network_id": 2,
-            "mcc": "242",
-            "mnc": "2",
-            "iccid": "8947080037110770905",
-            "container": "udpping",
-            "start_time": "2023-12-14 12:00:00",
-            "stop_time": "None",
-            "logical_interface": "en0"
-        },
-        {
             "measurement_id": 20008,
             "measurement_desc_id": 16,
             "measurement_desc": "Combined speedtest.net and web page load test",
