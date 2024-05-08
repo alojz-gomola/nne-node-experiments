@@ -48,7 +48,7 @@
             "mcc": "242",
             "mnc": "01",
             "iccid": "89470000210701063889",
-            "container": "dreibh/speedtest",
+            "container": "speedtest",
             "start_time": "2021-12-18 12:00:00",
             "stop_time": "None",
             "logical_interface": "telenor0"
@@ -61,7 +61,7 @@
             "mcc": "242",
             "mnc": "02",
             "iccid": null,
-            "container": "dreibh/speedtest",
+            "container": "speedtest",
             "start_time": "2021-12-18 12:00:00",
             "stop_time": "None",
             "logical_interface": "telia0"
