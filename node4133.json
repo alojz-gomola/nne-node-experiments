@@ -39,6 +39,32 @@
             "start_time": "2023-12-14 12:00:00",
             "stop_time": "None",
             "logical_interface": "telia0"
+        },
+        {
+            "measurement_id": 10381,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 1,
+            "mcc": "242",
+            "mnc": "01",
+            "iccid": "89470000210701063889",
+            "container": "dreibh/speedtest",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "telenor0"
+        },
+        {
+            "measurement_id": 10383,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 2,
+            "mcc": "242",
+            "mnc": "02",
+            "iccid": null,
+            "container": "dreibh/speedtest",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "telia0"
         }
     ]
 }
