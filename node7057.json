@@ -39,6 +39,32 @@
             "start_time": "2023-12-14 12:00:00",
             "stop_time": "None",
             "logical_interface": "telia0"
+        },
+        {
+            "measurement_id": 10529,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 18,
+            "mcc": "242",
+            "mnc": "14",
+            "iccid": "868692050028658",
+            "container": "udpping",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "ice0"
+        },
+        {
+            "measurement_id": 10528,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 2,
+            "mcc": "242",
+            "mnc": "2",
+            "iccid": "868692050028682",
+            "container": "udpping",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "logical_interface": "telia0"
         }
     ]
 }
