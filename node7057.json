@@ -48,7 +48,7 @@
             "mcc": "242",
             "mnc": "14",
             "iccid": "868692050028658",
-            "container": "udpping",
+            "container": "speedtest",
             "start_time": "2023-12-14 12:00:00",
             "stop_time": "None",
             "logical_interface": "ice0"
@@ -61,7 +61,7 @@
             "mcc": "242",
             "mnc": "2",
             "iccid": "868692050028682",
-            "container": "udpping",
+            "container": "speedtest",
             "start_time": "2023-12-14 12:00:00",
             "stop_time": "None",
             "logical_interface": "telia0"
