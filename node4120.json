@@ -1,0 +1,66 @@
+{
+    "node_id": 4120,
+    "instances": [
+        {
+            "measurement_id": 20001,
+            "measurement_desc_id": 24,
+            "measurement_desc": "Metadata collector",
+            "container": "metadata",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
+            "pull_seconds": 1,
+            "collection_seconds": 1,
+            "export_mode": "monroe",
+            "json_indent": "None",
+            "results_compression": false
+        },
+        {
+            "measurement_id": 10376,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 1,
+            "mcc": "242",
+            "mnc": "01",
+            "iccid": "89470000210701063863",
+            "container": "udpping",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None"
+        },
+        {
+            "measurement_id": 10377,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 1,
+            "mcc": "242",
+            "mnc": "01",
+            "iccid": "89470000210701063863",
+            "container": "speedtest",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None"
+        },
+        {
+            "measurement_id": 10378,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 2,
+            "mcc": "242",
+            "mnc": "02",
+            "iccid": null,
+            "container": "udpping",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None"
+        },
+        {
+            "measurement_id": 10379,
+            "measurement_desc_id": 16,
+            "measurement_desc": "Combined speedtest.net and web page load test",
+            "network_id": 2,
+            "mcc": "242",
+            "mnc": "02",
+            "iccid": null,
+            "container": "speedtest",
+            "start_time": "2021-12-18 12:00:00",
+            "stop_time": "None"
+        }
+    ]
+}
