@@ -1,0 +1,71 @@
+{
+  "node_id": 4135,
+  "version": "Albedo (CelerwayOS 2.11)",
+  "instances": [
+    {
+      "measurement_id": 20001,
+      "measurement_desc_id": 24,
+      "measurement_desc": "Metadata collector",
+      "container": "metadata",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "pull_seconds": 1,
+      "collection_seconds": 1,
+      "export_mode": "monroe",
+      "json_indent": "None",
+      "results_compression": false
+    },
+    {
+      "measurement_id": 10426,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2022-03-28 09:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 10427,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2022-03-28 09:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 10428,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": "8947080037013073639",
+      "container": "udpping",
+      "start_time": "2022-03-28 09:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10429,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": "8947080037013073639",
+      "container": "speedtest",
+      "start_time": "2022-03-28 09:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    }
+  ]
+}
