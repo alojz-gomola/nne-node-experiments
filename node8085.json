@@ -1,6 +1,6 @@
 {
   "node_id": 8085,
-  "version": "Albedo (CelerwayOS 2.11)",
+  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -22,37 +22,37 @@
       "network_id": 1,
       "mcc": "242",
       "mnc": "01",
-      "iccid": null,
+      "iccid": "89470000240122462071",
       "container": "udpping",
-      "start_time": "2022-08-22 00:00:00",
+      "start_time": "2024-08-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0"
     },
     {
       "measurement_id": 10585,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "udpping",
-      "start_time": "2022-08-22 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0"
-    },
-    {
-      "measurement_id": 10586,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
       "network_id": 1,
       "mcc": "242",
       "mnc": "01",
-      "iccid": null,
+      "iccid": "89470000240122462071",
       "container": "speedtest",
-      "start_time": "2022-08-22 00:00:00",
+      "start_time": "2024-08-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 10586,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": "89470715000048638436",
+      "container": "udpping",
+      "start_time": "2024-08-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
     },
     {
       "measurement_id": 10587,
@@ -61,9 +61,9 @@
       "network_id": 18,
       "mcc": "242",
       "mnc": "14",
-      "iccid": null,
+      "iccid": "89470715000048638436",
       "container": "speedtest",
-      "start_time": "2022-08-22 00:00:00",
+      "start_time": "2024-08-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "ice0"
     }
