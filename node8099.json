@@ -1,0 +1,71 @@
+{
+  "node_id": 8099,
+  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
+  "instances": [
+    {
+      "measurement_id": 20001,
+      "measurement_desc_id": 24,
+      "measurement_desc": "Metadata collector",
+      "container": "metadata",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "pull_seconds": 1,
+      "collection_seconds": 1,
+      "export_mode": "monroe",
+      "json_indent": "None",
+      "results_compression": false
+    },
+    {
+      "measurement_id": 10680,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": "08947080020202872359",
+      "container": "udpping",
+      "start_time": "2024-08-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10681,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": "08947080020202872359",
+      "container": "speedtest",
+      "start_time": "2024-08-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10682,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": "89470715000048638501",
+      "container": "udpping",
+      "start_time": "2024-08-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 10683,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": "89470715000048638501",
+      "container": "speedtest",
+      "start_time": "2024-08-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    }
+  ]
+}
