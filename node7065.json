@@ -1,0 +1,71 @@
+{
+  "node_id": 7065,
+  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
+  "instances": [
+    {
+      "measurement_id": 20001,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Metadata collector",
+      "container": "metadata",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "pull_seconds": 1,
+      "collection_seconds": 1,
+      "export_mode": "monroe",
+      "json_indent": "None",
+      "results_compression": false
+    },
+    {
+      "measurement_id": 10524,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2023-09-29 07:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10563,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2023-11-06 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10523,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2023-09-29 07:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 10562,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2023-11-06 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    }
+  ]
+}
