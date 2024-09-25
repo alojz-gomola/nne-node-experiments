@@ -60,18 +60,18 @@
       "repeats": null,
       "run_interval": 1,
       "run_interval_units": "h",
-      "udp_enabled": true,
+      "udp_enabled": false,
       "udp_outgoing_frame_rate": 30,
       "udp_outgoing_frame_size": 68000,
       "udp_incoming_frame_rate": 30,
       "udp_incoming_frame_size": 68000,
-      "udp_cc": false,
-      "tcp_enabled": false,
-      "tcp_outgoing_frame_rate": 10,
-      "tcp_outgoing_frame_size": 1000,
-      "tcp_incoming_frame_rate": 10,
-      "tcp_incoming_frame_size": 1000,
-      "tcp_cc": false
+      "udp_cc": null,
+      "tcp_enabled": true,
+      "tcp_outgoing_frame_rate": 30,
+      "tcp_outgoing_frame_size": 68000,
+      "tcp_incoming_frame_rate": 30,
+      "tcp_incoming_frame_size": 68000,
+      "tcp_cc": null
     },
     {
       "measurement_id": 10582,
@@ -118,18 +118,18 @@
       "repeats": null,
       "run_interval": 1,
       "run_interval_units": "h",
-      "udp_enabled": true,
+      "udp_enabled": false,
       "udp_outgoing_frame_rate": 30,
       "udp_outgoing_frame_size": 68000,
       "udp_incoming_frame_rate": 30,
       "udp_incoming_frame_size": 68000,
-      "udp_cc": false,
-      "tcp_enabled": false,
-      "tcp_outgoing_frame_rate": 10,
-      "tcp_outgoing_frame_size": 1000,
-      "tcp_incoming_frame_rate": 10,
-      "tcp_incoming_frame_size": 1000,
-      "tcp_cc": false
+      "udp_cc": null,
+      "tcp_enabled": true,
+      "tcp_outgoing_frame_rate": 30,
+      "tcp_outgoing_frame_size": 68000,
+      "tcp_incoming_frame_rate": 30,
+      "tcp_incoming_frame_size": 68000,
+      "tcp_cc": null
     }
   ]
 }
