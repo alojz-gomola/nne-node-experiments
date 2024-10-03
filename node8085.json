@@ -1,6 +1,6 @@
 {
   "node_id": 8085,
-  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
+  "version": "Chiori (CelerwayOS 2.11.1) (REL-1-2-1)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -53,7 +53,9 @@
       "start_time": "2024-09-27 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0",
-      "scheduler_run_interval_units": "hours"
+      "scheduler_run_interval_units": "minutes",
+      "scheduler_repeats": 10,
+      "scheduler_run_interval": 2
     },
     {
       "measurement_id": 10586,
