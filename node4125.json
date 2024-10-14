@@ -1,10 +1,10 @@
 {
   "node_id": 4125,
-  "version": "Albedo (CelerwayOS 2.11)",
+  "version": "Chiori (CelerwayOS 2.11.1) (REL-1-2-1)",
   "instances": [
     {
       "measurement_id": 20001,
-      "measurement_desc_id": 24,
+      "measurement_desc_id": 0,
       "measurement_desc": "Metadata collector",
       "container": "metadata",
       "start_time": "2023-12-14 12:00:00",
@@ -40,6 +40,23 @@
       "start_time": "2021-12-18 12:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 10741,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-09 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0",
+      "scheduler_run_interval_units": "minutes",
+      "scheduler_repeats": 5,
+      "scheduler_run_interval": 15,
+      "client_software": "both"
     },
     {
       "measurement_id": 10386,
@@ -84,20 +101,37 @@
       "compression": true,
       "store_netperf_config": false,
       "repeats": null,
-      "run_interval": 6,
+      "run_interval": 1,
       "run_interval_units": "h",
       "udp_enabled": true,
-      "udp_outgoing_frame_rate": 10,
-      "udp_outgoing_frame_size": 1000,
-      "udp_incoming_frame_rate": 10,
-      "udp_incoming_frame_size": 1000,
-      "udp_cc": false,
-      "tcp_enabled": true,
-      "tcp_outgoing_frame_rate": 10,
-      "tcp_outgoing_frame_size": 1000,
-      "tcp_incoming_frame_rate": 10,
-      "tcp_incoming_frame_size": 1000,
-      "tcp_cc": false
+      "udp_outgoing_frame_rate": 30,
+      "udp_outgoing_frame_size": 68000,
+      "udp_incoming_frame_rate": 30,
+      "udp_incoming_frame_size": 68000,
+      "udp_cc": null,
+      "tcp_enabled": false,
+      "tcp_outgoing_frame_rate": 30,
+      "tcp_outgoing_frame_size": 68000,
+      "tcp_incoming_frame_rate": 30,
+      "tcp_incoming_frame_size": 68000,
+      "tcp_cc": null
+    },
+    {
+      "measurement_id": 10742,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-14 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0",
+      "scheduler_run_interval_units": "minutes",
+      "scheduler_repeats": 5,
+      "scheduler_run_interval": 15,
+      "client_software": "both"
     }
   ]
 }
