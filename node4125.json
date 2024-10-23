@@ -53,10 +53,36 @@
       "start_time": "2024-10-09 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0",
-      "scheduler_run_interval_units": "minutes",
-      "scheduler_repeats": 5,
-      "scheduler_run_interval": 15,
-      "client_software": "both"
+      "scheduler_run_interval_units": "days",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 3,
+      "scheduler_hours": [
+        11
+      ],
+      "client_software": "both",
+      "service_path": "/100M.zip"
+    },
+    {
+      "measurement_id": 10753,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-20 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0",
+      "scheduler_run_interval_units": "days",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 3,
+      "scheduler_hours": [
+        14
+      ],
+      "client_software": "both",
+      "service_path": "/100M.zip",
+      "client_http_version": 2
     },
     {
       "measurement_id": 10386,
@@ -128,10 +154,36 @@
       "start_time": "2024-10-14 00:00:00",
       "stop_time": "None",
       "logical_interface": "telia0",
-      "scheduler_run_interval_units": "minutes",
-      "scheduler_repeats": 5,
-      "scheduler_run_interval": 15,
-      "client_software": "both"
+      "scheduler_run_interval_units": "days",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 3,
+      "scheduler_hours": [
+        13
+      ],
+      "client_software": "both",
+      "service_path": "/100M.zip"
+    },
+    {
+      "measurement_id": 10754,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-20 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0",
+      "scheduler_run_interval_units": "days",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 3,
+      "scheduler_hours": [
+        15
+      ],
+      "client_software": "both",
+      "service_path": "/100M.zip",
+      "client_http_version": 2
     }
   ]
 }
