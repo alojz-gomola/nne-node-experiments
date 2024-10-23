@@ -64,13 +64,13 @@
       "udp_outgoing_frame_rate": 30,
       "udp_outgoing_frame_size": 8500,
       "udp_incoming_frame_rate": 30,
-      "udp_incoming_frame_size": 85000,
+      "udp_incoming_frame_size": 8500,
       "udp_cc": null,
       "tcp_enabled": false,
       "tcp_outgoing_frame_rate": 30,
-      "tcp_outgoing_frame_size": 85000,
+      "tcp_outgoing_frame_size": 8500,
       "tcp_incoming_frame_rate": 30,
-      "tcp_incoming_frame_size": 85000,
+      "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
     },
     {
@@ -122,13 +122,13 @@
       "udp_outgoing_frame_rate": 30,
       "udp_outgoing_frame_size": 8500,
       "udp_incoming_frame_rate": 30,
-      "udp_incoming_frame_size": 85000,
+      "udp_incoming_frame_size": 8500,
       "udp_cc": null,
       "tcp_enabled": false,
       "tcp_outgoing_frame_rate": 30,
-      "tcp_outgoing_frame_size": 85000,
+      "tcp_outgoing_frame_size": 8500,
       "tcp_incoming_frame_rate": 30,
-      "tcp_incoming_frame_size": 85000,
+      "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
     }
   ]
