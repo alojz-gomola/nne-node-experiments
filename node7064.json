@@ -1,6 +1,6 @@
 {
   "node_id": 7064,
-  "version": "Chiori (CelerwayOS 2.11.1) (REL-1-2-1)",
+  "version": "Dehya (CelerwayOS 2.11.3) (REL-1-2-3)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -58,7 +58,7 @@
       "compression": true,
       "store_netperf_config": false,
       "repeats": null,
-      "run_interval": 10,
+      "run_interval": 30,
       "run_interval_units": "m",
       "udp_enabled": true,
       "udp_outgoing_frame_rate": 30,
@@ -116,7 +116,7 @@
       "compression": true,
       "store_netperf_config": false,
       "repeats": null,
-      "run_interval": 10,
+      "run_interval": 30,
       "run_interval_units": "m",
       "udp_enabled": true,
       "udp_outgoing_frame_rate": 30,
