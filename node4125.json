@@ -55,7 +55,7 @@
       "logical_interface": "telenor0",
       "scheduler_run_interval_units": "days",
       "scheduler_repeats": null,
-      "scheduler_run_interval": 3,
+      "scheduler_run_interval": 1,
       "scheduler_hours": [
         11
       ],
@@ -76,7 +76,7 @@
       "logical_interface": "telenor0",
       "scheduler_run_interval_units": "days",
       "scheduler_repeats": null,
-      "scheduler_run_interval": 3,
+      "scheduler_run_interval": 1,
       "scheduler_hours": [
         14
       ],
@@ -127,19 +127,19 @@
       "compression": true,
       "store_netperf_config": false,
       "repeats": null,
-      "run_interval": 1,
-      "run_interval_units": "h",
+      "run_interval": 10,
+      "run_interval_units": "m",
       "udp_enabled": true,
       "udp_outgoing_frame_rate": 30,
-      "udp_outgoing_frame_size": 68000,
+      "udp_outgoing_frame_size": 8500,
       "udp_incoming_frame_rate": 30,
-      "udp_incoming_frame_size": 68000,
+      "udp_incoming_frame_size": 8500,
       "udp_cc": null,
       "tcp_enabled": false,
       "tcp_outgoing_frame_rate": 30,
-      "tcp_outgoing_frame_size": 68000,
+      "tcp_outgoing_frame_size": 8500,
       "tcp_incoming_frame_rate": 30,
-      "tcp_incoming_frame_size": 68000,
+      "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
     },
     {
@@ -156,7 +156,7 @@
       "logical_interface": "telia0",
       "scheduler_run_interval_units": "days",
       "scheduler_repeats": null,
-      "scheduler_run_interval": 3,
+      "scheduler_run_interval": 1,
       "scheduler_hours": [
         13
       ],
@@ -177,7 +177,7 @@
       "logical_interface": "telia0",
       "scheduler_run_interval_units": "days",
       "scheduler_repeats": null,
-      "scheduler_run_interval": 3,
+      "scheduler_run_interval": 1,
       "scheduler_hours": [
         15
       ],
