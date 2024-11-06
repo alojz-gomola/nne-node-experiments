@@ -1,0 +1,45 @@
+{
+  "node_id": 4072,
+  "version": "Clorinde (CelerwayOS 2.11.3 + Sattelite) (REL-1-2-4)",
+  "instances": [
+    {
+      "measurement_id": 20001,
+      "measurement_desc_id": 0,
+      "measurement_desc": "Metadata collector",
+      "container": "metadata",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "pull_seconds": 1,
+      "collection_seconds": 1,
+      "export_mode": "monroe",
+      "json_indent": "None",
+      "results_compression": false
+    },
+    {
+      "measurement_id": 10766,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 6,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2024-11-01 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "eth0"
+    },
+    {
+      "measurement_id": 10767,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 6,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2024-11-01 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "eth0"
+    }
+  ]
+}
