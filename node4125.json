@@ -57,7 +57,8 @@
       "scheduler_repeats": null,
       "scheduler_run_interval": 1,
       "scheduler_hours": [
-        11
+        11,
+        23
       ],
       "service_path": "/100M.zip"
     },
@@ -135,7 +136,8 @@
       "scheduler_repeats": null,
       "scheduler_run_interval": 1,
       "scheduler_hours": [
-        11
+        11,
+        23
       ],
       "service_path": "/100M.zip"
     }
