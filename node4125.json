@@ -53,7 +53,7 @@
       "start_time": "2024-10-09 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0",
-      "scheduler_run_interval_units": "days",
+      "scheduler_run_interval_units": "d",
       "scheduler_repeats": null,
       "scheduler_run_interval": 1,
       "scheduler_hours": [
@@ -132,7 +132,7 @@
       "start_time": "2024-10-14 00:00:00",
       "stop_time": "None",
       "logical_interface": "telia0",
-      "scheduler_run_interval_units": "days",
+      "scheduler_run_interval_units": "d",
       "scheduler_repeats": null,
       "scheduler_run_interval": 1,
       "scheduler_hours": [
