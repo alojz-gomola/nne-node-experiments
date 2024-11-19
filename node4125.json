@@ -1,6 +1,6 @@
 {
   "node_id": 4125,
-  "version": "Chiori (CelerwayOS 2.11.1) (REL-1-2-1)",
+  "version": "Clorinde (CelerwayOS 2.11.3 + Sattelite) (REL-1-2-4)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -60,7 +60,7 @@
         11,
         23
       ],
-      "service_path": "/100M.zip"
+      "service_path": "/500M.zip"
     },
     {
       "measurement_id": 10386,
@@ -105,7 +105,7 @@
       "compression": true,
       "store_netperf_config": false,
       "repeats": null,
-      "run_interval": 10,
+      "run_interval": 30,
       "run_interval_units": "m",
       "udp_enabled": true,
       "udp_outgoing_frame_rate": 30,
@@ -139,7 +139,7 @@
         11,
         23
       ],
-      "service_path": "/100M.zip"
+      "service_path": "/500M.zip"
     }
   ]
 }
