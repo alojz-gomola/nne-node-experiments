@@ -42,27 +42,6 @@
       "logical_interface": "telenor0"
     },
     {
-      "measurement_id": 10741,
-      "measurement_desc_id": 25,
-      "measurement_desc": "Quic experiment",
-      "network_id": 1,
-      "mcc": "242",
-      "mnc": "01",
-      "iccid": null,
-      "container": "quic",
-      "start_time": "2024-10-09 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenor0",
-      "scheduler_run_interval_units": "d",
-      "scheduler_repeats": null,
-      "scheduler_run_interval": 1,
-      "scheduler_hours": [
-        11,
-        23
-      ],
-      "service_path": "/500M.zip"
-    },
-    {
       "measurement_id": 10386,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
@@ -119,27 +98,6 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
-    },
-    {
-      "measurement_id": 10742,
-      "measurement_desc_id": 25,
-      "measurement_desc": "Quic experiment",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": null,
-      "container": "quic",
-      "start_time": "2024-10-14 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0",
-      "scheduler_run_interval_units": "d",
-      "scheduler_repeats": null,
-      "scheduler_run_interval": 1,
-      "scheduler_hours": [
-        11,
-        23
-      ],
-      "service_path": "/500M.zip"
     }
   ]
 }
