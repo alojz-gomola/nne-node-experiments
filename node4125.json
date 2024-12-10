@@ -98,6 +98,26 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
+    },
+    {
+      "measurement_id": 10754,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-20 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0",
+      "scheduler_run_interval_units": "days",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 1,
+      "scheduler_hours": [
+        12
+      ],
+      "service_path": "/100M.zip"
     }
   ]
 }
