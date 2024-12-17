@@ -42,6 +42,26 @@
       "logical_interface": "telenor0"
     },
     {
+      "measurement_id": 10753,
+      "measurement_desc_id": 25,
+      "measurement_desc": "Quic experiment",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "quic",
+      "start_time": "2024-10-20 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0",
+      "scheduler_run_interval_units": "d",
+      "scheduler_repeats": null,
+      "scheduler_run_interval": 1,
+      "scheduler_hours": [
+        13
+      ],
+      "service_path": "/100M.zip"
+    },
+    {
       "measurement_id": 10386,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
