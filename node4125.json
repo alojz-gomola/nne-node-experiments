@@ -138,6 +138,19 @@
         12
       ],
       "service_path": "/100M.zip"
+    },
+    {
+      "measurement_id": 10775,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 6,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2025-01-29 12:00:00",
+      "stop_time": "None",
+      "logical_interface": "cable0"
     }
   ]
 }
