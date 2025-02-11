@@ -30,7 +30,7 @@
     },
     {
       "measurement_id": 10532,
-      "measurement_desc_id": 16,
+      "measurement_desc_id": 18,
       "measurement_desc": "Combined speedtest.net and web page load test",
       "network_id": 2,
       "mcc": "242",
@@ -88,7 +88,7 @@
     },
     {
       "measurement_id": 10533,
-      "measurement_desc_id": 16,
+      "measurement_desc_id": 18,
       "measurement_desc": "Combined speedtest.net and web page load test",
       "network_id": 18,
       "mcc": "242",
