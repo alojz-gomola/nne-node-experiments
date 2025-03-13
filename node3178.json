@@ -11,7 +11,7 @@
             "pull_seconds": 1,
             "collection_seconds": 1,
             "export_mode": "monroe",
-            "json_indent": "None",
+            "json_indent": 2,
             "results_compression": false
         },
         {
