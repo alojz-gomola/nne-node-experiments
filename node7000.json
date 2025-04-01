@@ -165,6 +165,21 @@
             "dccp_incoming_frame_rate": 10,
             "dccp_incoming_frame_size": 1000,
             "dccp_cc": null
+        },
+        {
+            "measurement_id": 16000,
+            "measurement_desc_id": 27,
+            "measurement_desc": "MQTT data collector",
+            "container": "mqtt",
+            "external_gps": true,
+            "connectivity_updates": false,
+            "connectivity_events": false,
+            "internal_gps": false,
+            "internal_gps_collection_seconds": 1,
+            "metadata": false,
+            "metadata_collection_seconds": 1,
+            "hw_sensors": false,
+            "hw_sensors_collection_seconds": 1
         }
     ]
 }
