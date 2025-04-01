@@ -171,6 +171,8 @@
             "measurement_desc_id": 27,
             "measurement_desc": "MQTT data collector",
             "container": "mqtt",
+            "start_time": "2023-12-14 12:00:00",
+            "stop_time": "None",
             "external_gps": true,
             "connectivity_updates": false,
             "connectivity_events": false,
