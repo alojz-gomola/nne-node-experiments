@@ -16,32 +16,6 @@
       "results_compression": false
     },
     {
-      "measurement_id": 10913,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": "89470715000048377118",
-      "container": "udpping",
-      "start_time": "2024-04-22 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0"
-    },
-    {
-      "measurement_id": 10914,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": "89470715000048377118",
-      "container": "speedtest",
-      "start_time": "2024-04-22 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0"
-    },
-    {
       "measurement_id": 10915,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
@@ -66,6 +40,32 @@
       "start_time": "2024-04-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 10913,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": "89470715000048377118",
+      "container": "udpping",
+      "start_time": "2024-04-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 10914,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": "89470715000048377118",
+      "container": "speedtest",
+      "start_time": "2024-04-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
     }
   ]
 }
