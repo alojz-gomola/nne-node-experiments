@@ -1,6 +1,6 @@
 {
   "node_id": 7042,
-  "version": "Dehya (CelerwayOS 2.11.3) (REL-1-2-3)",
+  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -130,6 +130,15 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
+    },
+    {
+      "measurement_id": 16000,
+      "measurement_desc_id": 27,
+      "measurement_desc": "MQTT data collector",
+      "container": "mqtt",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "external_gps": true
     }
   ]
 }

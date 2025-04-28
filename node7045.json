@@ -1,6 +1,6 @@
 {
   "node_id": 7045,
-  "version": "Navia (CelerwayOS 2.12.4) (RC-2-0-0)",
+  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -130,6 +130,15 @@
       "start_time": "2025-02-13 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenorprio0"
+    },
+    {
+      "measurement_id": 16000,
+      "measurement_desc_id": 27,
+      "measurement_desc": "MQTT data collector",
+      "container": "mqtt",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "external_gps": true
     }
   ]
 }
