@@ -1,10 +1,10 @@
 {
   "node_id": 8088,
-  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
+  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
-      "measurement_desc_id": 24,
+      "measurement_desc_id": 0,
       "measurement_desc": "Metadata collector",
       "container": "metadata",
       "start_time": "2023-12-14 12:00:00",
@@ -75,6 +75,6 @@
       "start_time": "2023-12-14 12:00:00",
       "stop_time": "None",
       "external_gps": true
-    }
+     }
   ]
 }

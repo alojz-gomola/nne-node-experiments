@@ -1,19 +1,19 @@
 {
   "node_id": 8094,
-  "version": "Beidou (CelerwayOS 2.11) (REL-1-2-0)",
+  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
-      "measurement_desc_id": 24,
+      "measurement_desc_id": 0,
       "measurement_desc": "Metadata collector",
       "container": "metadata",
       "start_time": "2023-12-14 12:00:00",
       "stop_time": "None",
       "pull_seconds": 1,
-      "collection_seconds": 1,
+      "collection_seconds": 15,
       "export_mode": "monroe",
       "json_indent": "None",
-      "results_compression": false
+      "results_compression": true
     },
     {
       "measurement_id": 10660,
