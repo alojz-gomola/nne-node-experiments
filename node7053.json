@@ -1,5 +1,5 @@
 {
-  "node_id": 4151,
+  "node_id": 7053,
   "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
   "instances": [
     {
@@ -16,7 +16,7 @@
       "results_compression": true
     },
     {
-      "measurement_id": 11079,
+      "measurement_id": 11081,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
       "network_id": 2,
@@ -29,7 +29,7 @@
       "logical_interface": "telia0"
     },
     {
-      "measurement_id": 11085,
+      "measurement_id": 11087,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
       "network_id": 2,
@@ -42,7 +42,7 @@
       "logical_interface": "telia0"
     },
     {
-      "measurement_id": 11082,
+      "measurement_id": 11084,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
       "network_id": 18,
@@ -55,7 +55,7 @@
       "logical_interface": "ice0"
     },
     {
-      "measurement_id": 11088,
+      "measurement_id": 11090,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
       "network_id": 18,
