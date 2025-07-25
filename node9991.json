@@ -66,6 +66,15 @@
       "start_time": "2024-04-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "ice0"
-    }
+    },
+    {
+      "measurement_id": 16000,
+      "measurement_desc_id": 27,
+      "measurement_desc": "MQTT data collector",
+      "container": "mqtt",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "internal_gps": true
+     }
   ]
 }
