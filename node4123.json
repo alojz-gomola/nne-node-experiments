@@ -1,6 +1,6 @@
 {
   "node_id": 4123,
-  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
+  "version": "Mauvika (CelerwayOS 2.12.6) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -29,17 +29,17 @@
       "logical_interface": "telenor0"
     },
     {
-      "measurement_id": 10407,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 1,
+      "measurement_id": 10525,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 18,
       "mcc": "242",
-      "mnc": "01",
+      "mnc": "14",
       "iccid": null,
-      "container": "speedtest",
-      "start_time": "2022-02-09 09:00:00",
+      "container": "udpping",
+      "start_time": "2023-10-11 07:00:00",
       "stop_time": "None",
-      "logical_interface": "telenor0"
+      "logical_interface": "ice0"
     },
     {
       "measurement_id": 10743,
@@ -74,32 +74,6 @@
       "tcp_cc": null
     },
     {
-      "measurement_id": 10525,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "udpping",
-      "start_time": "2023-10-11 07:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0"
-    },
-    {
-      "measurement_id": 10526,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2023-10-11 07:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0"
-    },
-    {
       "measurement_id": 10744,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
@@ -130,6 +104,57 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
+    },
+    {
+      "measurement_id": 11105,
+      "measurement_desc_id": 26,
+      "measurement_desc": "MQTT CWY-OS Collector",
+      "network_id": 0,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "mqtt",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "empty0",
+      "external_gps": true,
+      "connectivity_updates": true,
+      "connectivity_events": true,
+      "internal_gps": false,
+      "internal_gps_collection_seconds": 1,
+      "metadata": false,
+      "metadata_collection_seconds": 1,
+      "hw_sensors": false,
+      "hw_sensors_collection_seconds": 1,
+      "interface_update": true,
+      "modem_restart": true,
+      "json_indent": null
+    },
+    {
+      "measurement_id": 11112,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 11113,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0"
     }
   ]
 }
