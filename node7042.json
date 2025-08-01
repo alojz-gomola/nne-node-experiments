@@ -42,6 +42,32 @@
       "logical_interface": "ice0"
     },
     {
+      "measurement_id": 11133,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 11134,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
+    },
+    {
       "measurement_id": 10757,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
@@ -129,32 +155,6 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
-    },
-    {
-      "measurement_id": 11133,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0"
-    },
-    {
-      "measurement_id": 11134,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0"
     }
   ]
 }

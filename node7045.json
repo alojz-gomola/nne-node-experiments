@@ -29,6 +29,45 @@
       "logical_interface": "telenor0"
     },
     {
+      "measurement_id": 10780,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 31,
+      "mcc": "240",
+      "mnc": "01",
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2025-02-13 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenorprio0"
+    },
+    {
+      "measurement_id": 11135,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 11136,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 31,
+      "mcc": "240",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenorprio0"
+    },
+    {
       "measurement_id": 10771,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
@@ -93,19 +132,6 @@
       "tcp_cc": null
     },
     {
-      "measurement_id": 10780,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 31,
-      "mcc": "240",
-      "mnc": "01",
-      "iccid": null,
-      "container": "udpping",
-      "start_time": "2025-02-13 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenorprio0"
-    },
-    {
       "measurement_id": 11103,
       "measurement_desc_id": 26,
       "measurement_desc": "MQTT CWY-OS Collector",
@@ -129,32 +155,6 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
-    },
-    {
-      "measurement_id": 11135,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 1,
-      "mcc": "242",
-      "mnc": "01",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenor0"
-    },
-    {
-      "measurement_id": 11136,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 31,
-      "mcc": "240",
-      "mnc": "01",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenorprio0"
     }
   ]
 }

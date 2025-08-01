@@ -1,6 +1,6 @@
 {
   "node_id": 10007,
-  "version": "Furina (CelerwayOS 2.12.5) (REL-1-2-8)",
+  "version": "Mauvika (CelerwayOS 2.12.6) (REL-1-2-8)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -29,19 +29,6 @@
       "logical_interface": "telia0"
     },
     {
-      "measurement_id": 10940,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": "8947080038003996219",
-      "container": "speedtest",
-      "start_time": "2024-04-22 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0"
-    },
-    {
       "measurement_id": 10937,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
@@ -55,6 +42,19 @@
       "logical_interface": "ice0"
     },
     {
+      "measurement_id": 10940,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": "8947080038003996219",
+      "container": "speedtest",
+      "start_time": "2024-04-22 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
       "measurement_id": 10938,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
@@ -66,6 +66,31 @@
       "start_time": "2024-04-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 11324,
+      "measurement_desc_id": 26,
+      "measurement_desc": "MQTT CWY-OS Collector",
+      "network_id": 0,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "mqtt",
+      "start_time": "2025-07-01 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "empty0",
+      "external_gps": false,
+      "connectivity_updates": true,
+      "connectivity_events": true,
+      "internal_gps": false,
+      "internal_gps_collection_seconds": 1,
+      "metadata": false,
+      "metadata_collection_seconds": 1,
+      "hw_sensors": false,
+      "hw_sensors_collection_seconds": 1,
+      "interface_update": true,
+      "modem_restart": true,
+      "json_indent": null
     }
   ]
 }

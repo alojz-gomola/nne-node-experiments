@@ -42,31 +42,6 @@
       "logical_interface": "ice0"
     },
     {
-      "measurement_id": 11107,
-      "measurement_desc_id": 26,
-      "measurement_desc": "MQTT CWY-OS Collector",
-      "network_id": 0,
-      "mcc": null,
-      "mnc": null,
-      "iccid": null,
-      "container": "mqtt",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "empty0",
-      "external_gps": true,
-      "connectivity_updates": true,
-      "connectivity_events": true,
-      "internal_gps": false,
-      "internal_gps_collection_seconds": 1,
-      "metadata": false,
-      "metadata_collection_seconds": 1,
-      "hw_sensors": false,
-      "hw_sensors_collection_seconds": 1,
-      "interface_update": true,
-      "modem_restart": true,
-      "json_indent": null
-    },
-    {
       "measurement_id": 11125,
       "measurement_desc_id": 18,
       "measurement_desc": "Hourly speedtest",
@@ -155,6 +130,31 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
+    },
+    {
+      "measurement_id": 11107,
+      "measurement_desc_id": 26,
+      "measurement_desc": "MQTT CWY-OS Collector",
+      "network_id": 0,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "mqtt",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "empty0",
+      "external_gps": true,
+      "connectivity_updates": true,
+      "connectivity_events": true,
+      "internal_gps": false,
+      "internal_gps_collection_seconds": 1,
+      "metadata": false,
+      "metadata_collection_seconds": 1,
+      "hw_sensors": false,
+      "hw_sensors_collection_seconds": 1,
+      "interface_update": true,
+      "modem_restart": true,
+      "json_indent": null
     }
   ]
 }

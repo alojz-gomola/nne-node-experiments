@@ -42,6 +42,32 @@
       "logical_interface": "telia0"
     },
     {
+      "measurement_id": 11099,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0"
+    },
+    {
+      "measurement_id": 11100,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
       "measurement_id": 11077,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
@@ -104,32 +130,6 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
-    },
-    {
-      "measurement_id": 11099,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 1,
-      "mcc": "242",
-      "mnc": "01",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenor0"
-    },
-    {
-      "measurement_id": 11100,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0"
     },
     {
       "measurement_id": 11101,
