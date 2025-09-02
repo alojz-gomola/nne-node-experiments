@@ -143,7 +143,7 @@
       "start_time": "2025-07-01 00:00:00",
       "stop_time": "None",
       "logical_interface": "empty0",
-      "external_gps": false,
+      "external_gps": true,
       "connectivity_updates": true,
       "connectivity_events": true,
       "internal_gps": false,
