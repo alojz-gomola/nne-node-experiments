@@ -25,7 +25,10 @@
             "container": "udpping",
             "start_time": "2023-12-14 12:00:00",
             "stop_time": "None",
-            "logical_interface": "en0"
+            "logical_interface": "en0",
+            "radio_silence_enabled": true,
+            "radio_silence_hour": 23,
+            "radio_silence_duration_seconds": 300
         },
         {
             "measurement_id": 20008,
