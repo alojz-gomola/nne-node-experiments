@@ -1,6 +1,6 @@
 {
   "node_id": 4071,
-  "version": "Mauvika (CelerwayOS 2.12.6) (REL-1-2-8)",
+  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -26,7 +26,10 @@
       "container": "udpping",
       "start_time": "2024-11-01 00:00:00",
       "stop_time": "None",
-      "logical_interface": "enp6s19"
+      "logical_interface": "enp6s19",
+      "radio_silence_enabled": false,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 10765,

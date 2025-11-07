@@ -1,6 +1,6 @@
 {
   "node_id": 10073,
-  "version": "Mauvika (CelerwayOS 2.12.6) (REL-1-2-8)",
+  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -26,7 +26,10 @@
       "container": "udpping",
       "start_time": "2024-05-05 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telenor0"
+      "logical_interface": "telenor0",
+      "radio_silence_enabled": true,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 11033,
@@ -39,7 +42,10 @@
       "container": "udpping",
       "start_time": "2024-05-05 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0"
+      "logical_interface": "ice0",
+      "radio_silence_enabled": true,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 11036,
