@@ -27,7 +27,7 @@
             "stop_time": "None",
             "logical_interface": "en0",
             "radio_silence_enabled": true,
-            "radio_silence_hour": 23,
+            "radio_silence_hour": 11,
             "radio_silence_duration_seconds": 300
         },
         {
