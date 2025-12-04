@@ -1,6 +1,6 @@
 {
   "node_id": 8107,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Pei (CelerwayOS 2.12.6) (REL-2-1-2)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -14,22 +14,6 @@
       "export_mode": "monroe",
       "json_indent": "None",
       "results_compression": true
-    },
-    {
-      "measurement_id": 10708,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": "08947080020202872524",
-      "container": "udpping",
-      "start_time": "2024-08-22 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0",
-      "radio_silence_enabled": true,
-      "radio_silence_hour": 23,
-      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 10710,
@@ -48,17 +32,20 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 10709,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 2,
+      "measurement_id": 11369,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 32,
       "mcc": "242",
-      "mnc": "02",
-      "iccid": "08947080020202872524",
-      "container": "speedtest",
-      "start_time": "2024-08-22 00:00:00",
+      "mnc": "01",
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2025-12-04 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0"
+      "logical_interface": "telavox0",
+      "radio_silence_enabled": true,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 10711,
@@ -72,6 +59,19 @@
       "start_time": "2024-08-22 00:00:00",
       "stop_time": "None",
       "logical_interface": "ice0"
+    },
+    {
+      "measurement_id": 11370,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 32,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-12-04 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telavox0"
     },
     {
       "measurement_id": 11314,
