@@ -26,7 +26,7 @@
       "container": "udpping",
       "start_time": "2023-06-23 11:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0",
+      "logical_interface": "eth0",
       "radio_silence_enabled": false,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
@@ -42,7 +42,7 @@
       "container": "speedtest",
       "start_time": "2023-06-23 11:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0"
+      "logical_interface": "eth0"
     },
     {
       "measurement_id": 11374,
@@ -55,7 +55,7 @@
       "container": "netperfmeter",
       "start_time": "2025-01-28 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0",
+      "logical_interface": "eth0",
       "runtime": 60,
       "format": "json",
       "compression": true,
