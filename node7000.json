@@ -15,19 +15,6 @@
             "results_compression": false
         },
         {
-            "measurement_id": 20002,
-            "measurement_desc_id": 1,
-            "measurement_desc": "RTT measurement - outside container",
-            "network_id": 2,
-            "mcc": "242",
-            "mnc": "2",
-            "iccid": "8947080037110770905",
-            "container": "udpping",
-            "start_time": "2023-12-14 12:00:00",
-            "stop_time": "None",
-            "logical_interface": "eth0"
-        },
-        {
             "measurement_id": 20004,
             "measurement_desc_id": 1,
             "measurement_desc": "RTT measurement - inside container",
