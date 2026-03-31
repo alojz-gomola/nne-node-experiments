@@ -42,7 +42,40 @@
       "container": "speedtest",
       "start_time": "2023-02-09 00:00:00",
       "stop_time": "None",
-      "logical_interface": "enp6s19"
+      "logical_interface": "enp6s19",
+      "radio_silence_enabled": false
+    },
+    {
+      "measurement_id": 11383,
+      "measurement_desc_id": 24,
+      "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "netperfmeter",
+      "start_time": "2026-03-31 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "enp6s19",
+      "runtime": 60,
+      "format": "json",
+      "compression": true,
+      "store_netperf_config": false,
+      "repeats": null,
+      "run_interval": 30,
+      "run_interval_units": "m",
+      "udp_enabled": true,
+      "udp_outgoing_frame_rate": 30,
+      "udp_outgoing_frame_size": 8500,
+      "udp_incoming_frame_rate": 30,
+      "udp_incoming_frame_size": 8500,
+      "udp_cc": null,
+      "tcp_enabled": false,
+      "tcp_outgoing_frame_rate": 30,
+      "tcp_outgoing_frame_size": 8500,
+      "tcp_incoming_frame_rate": 30,
+      "tcp_incoming_frame_size": 8500,
+      "tcp_cc": null
     }
   ]
 }
