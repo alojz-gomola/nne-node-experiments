@@ -49,7 +49,7 @@
     },
     {
       "measurement_id": 11129,
-      "measurement_desc_id": 18,
+      "measurement_desc_id": 16,
       "measurement_desc": "Hourly speedtest",
       "network_id": 2,
       "mcc": "242",
@@ -62,7 +62,7 @@
     },
     {
       "measurement_id": 11130,
-      "measurement_desc_id": 18,
+      "measurement_desc_id": 16,
       "measurement_desc": "Hourly speedtest",
       "network_id": 18,
       "mcc": "242",
