@@ -32,17 +32,17 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 11378,
+      "measurement_id": 11384,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
-      "network_id": 31,
-      "mcc": "240",
-      "mnc": "01",
+      "network_id": 34,
+      "mcc": "242",
+      "mnc": "69",
       "iccid": null,
       "container": "udpping",
-      "start_time": "2026-03-09 00:00:00",
+      "start_time": "2026-04-17 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telenorprio0",
+      "logical_interface": "simulamet0",
       "radio_silence_enabled": true,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
@@ -61,17 +61,17 @@
       "logical_interface": "telenor0"
     },
     {
-      "measurement_id": 11380,
+      "measurement_id": 11385,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 31,
-      "mcc": "240",
-      "mnc": "01",
+      "network_id": 34,
+      "mcc": "242",
+      "mnc": "69",
       "iccid": null,
       "container": "speedtest",
-      "start_time": "2026-03-09 00:00:00",
+      "start_time": "2026-04-17 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telenorprio0"
+      "logical_interface": "simulamet0"
     },
     {
       "measurement_id": 11101,
