@@ -1,6 +1,6 @@
 {
   "node_id": 4127,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Bahny (CelerwayOS 2.14.0) (REL-2-2-0)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -85,7 +85,7 @@
       "start_time": "2025-07-01 00:00:00",
       "stop_time": "None",
       "logical_interface": "empty0",
-      "external_gps": false,
+      "external_gps": true,
       "connectivity_updates": true,
       "connectivity_events": true,
       "internal_gps": false,
