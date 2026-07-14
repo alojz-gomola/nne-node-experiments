@@ -1,6 +1,6 @@
 {
   "node_id": 4073,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Mi-Ma (CelerwayOS 2.12.14) (REL-2-2-0)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -26,7 +26,7 @@
       "container": "udpping",
       "start_time": "2025-08-07 00:00:00",
       "stop_time": "None",
-      "logical_interface": "enp6s19",
+      "logical_interface": "oneweb",
       "radio_silence_enabled": false,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
@@ -42,7 +42,7 @@
       "container": "speedtest",
       "start_time": "2025-09-16 14:00:00",
       "stop_time": "None",
-      "logical_interface": "enp6s19"
+      "logical_interface": "oneweb"
     },
     {
       "measurement_id": 11363,
@@ -55,7 +55,7 @@
       "container": "netperfmeter",
       "start_time": "2025-08-07 00:00:00",
       "stop_time": "None",
-      "logical_interface": "enp6s19",
+      "logical_interface": "oneweb",
       "runtime": 60,
       "format": "json",
       "compression": true,
