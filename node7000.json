@@ -169,6 +169,27 @@
             "metadata_collection_seconds": 1,
             "hw_sensors": false,
             "hw_sensors_collection_seconds": 1
+        },
+        {
+            "measurement_id": 11449,
+            "measurement_desc_id": 27,
+            "measurement_desc": "Traceroute to Anycast",
+            "network_id": 1,
+            "mcc": "242",
+            "mnc": "01",
+            "iccid": null,
+            "container": "traceroute",
+            "start_time": "2026-07-28 00:00:00",
+            "stop_time": "None",
+            "logical_interface": "telenor0",
+            "destination": "1.1.1.1",
+            "max_hops": 30,
+            "queries": 3,
+            "probe_timeout_seconds": 1.0,
+            "overall_timeout_seconds": 60.0,
+            "scheduling_type": "minutes",
+            "scheduling_period": 5,
+            "repeats": null
         }
     ]
 }
