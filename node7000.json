@@ -188,7 +188,7 @@
             "probe_timeout_seconds": 1.0,
             "overall_timeout_seconds": 60.0,
             "scheduling_type": "minutes",
-            "scheduling_period": 5,
+            "scheduling_period": 1,
             "repeats": null
         }
     ]
