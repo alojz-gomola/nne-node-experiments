@@ -161,6 +161,48 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
+    },
+    {
+      "measurement_id": 11458,
+      "measurement_desc_id": 27,
+      "measurement_desc": "Traceroute to Anycast",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "traceroute",
+      "start_time": "2026-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0",
+      "destination": "1.1.1.1",
+      "max_hops": 30,
+      "queries": 3,
+      "probe_timeout_seconds": 1.0,
+      "overall_timeout_seconds": 60.0,
+      "scheduling_type": "minutes",
+      "scheduling_period": 5,
+      "repeats": null
+    },
+    {
+      "measurement_id": 11457,
+      "measurement_desc_id": 27,
+      "measurement_desc": "Traceroute to Anycast",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "traceroute",
+      "start_time": "2026-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0",
+      "destination": "1.1.1.1",
+      "max_hops": 30,
+      "queries": 3,
+      "probe_timeout_seconds": 1.0,
+      "overall_timeout_seconds": 60.0,
+      "scheduling_type": "minutes",
+      "scheduling_period": 5,
+      "repeats": null
     }
   ]
 }
