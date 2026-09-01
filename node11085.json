@@ -65,8 +65,8 @@
     },
     {
       "measurement_id": 11479,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
       "network_id": 1,
       "mcc": "242",
       "mnc": "01",
@@ -78,8 +78,8 @@
     },
     {
       "measurement_id": 11476,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
       "network_id": 2,
       "mcc": "242",
       "mnc": "02",
@@ -91,8 +91,8 @@
     },
     {
       "measurement_id": 11482,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
       "network_id": 18,
       "mcc": "242",
       "mnc": "14",
