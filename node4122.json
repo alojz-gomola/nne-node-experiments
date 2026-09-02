@@ -1,6 +1,6 @@
 {
   "node_id": 4122,
-  "version": "Hope (CelerwayOS 2.12.14) (REL-2-2-1)",
+  "version": "Shadowhearth (CelerwayOS 2.12.14) (REL-2-2-2)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -14,22 +14,6 @@
       "export_mode": "monroe",
       "json_indent": "None",
       "results_compression": true
-    },
-    {
-      "measurement_id": 11461,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 2,
-      "mcc": "242",
-      "mnc": "02",
-      "iccid": null,
-      "container": "udpping",
-      "start_time": "2026-08-31 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telia0",
-      "radio_silence_enabled": true,
-      "radio_silence_hour": 23,
-      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 11384,
@@ -48,17 +32,20 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 11462,
-      "measurement_desc_id": 18,
-      "measurement_desc": "Hourly speedtest",
-      "network_id": 2,
+      "measurement_id": 11461,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 35,
       "mcc": "242",
       "mnc": "02",
       "iccid": null,
-      "container": "speedtest",
+      "container": "udpping",
       "start_time": "2026-08-31 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0"
+      "logical_interface": "teliaprio0",
+      "radio_silence_enabled": true,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
     },
     {
       "measurement_id": 11385,
@@ -74,17 +61,30 @@
       "logical_interface": "simulamet0"
     },
     {
-      "measurement_id": 11463,
-      "measurement_desc_id": 24,
-      "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
-      "network_id": 2,
+      "measurement_id": 11462,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 35,
       "mcc": "242",
       "mnc": "02",
       "iccid": null,
-      "container": "netperfmeter",
+      "container": "speedtest",
       "start_time": "2026-08-31 00:00:00",
       "stop_time": "None",
-      "logical_interface": "telia0",
+      "logical_interface": "teliaprio0"
+    },
+    {
+      "measurement_id": 11401,
+      "measurement_desc_id": 24,
+      "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
+      "network_id": 34,
+      "mcc": "242",
+      "mnc": "69",
+      "iccid": null,
+      "container": "netperfmeter",
+      "start_time": "2026-05-24 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "simulamet0",
       "runtime": 45,
       "format": "json",
       "compression": true,
@@ -106,17 +106,17 @@
       "tcp_cc": null
     },
     {
-      "measurement_id": 11401,
+      "measurement_id": 11463,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
-      "network_id": 34,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "69",
+      "mnc": "02",
       "iccid": null,
       "container": "netperfmeter",
-      "start_time": "2026-05-24 00:00:00",
+      "start_time": "2026-08-31 00:00:00",
       "stop_time": "None",
-      "logical_interface": "simulamet0",
+      "logical_interface": "teliaprio0",
       "runtime": 45,
       "format": "json",
       "compression": true,
