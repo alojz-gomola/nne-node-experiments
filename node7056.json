@@ -1,6 +1,6 @@
 {
   "node_id": 7056,
-  "version": "Mi-Ma (CelerwayOS 2.12.14) (REL-2-2-0)",
+  "version": "Shadowhearth (CelerwayOS 2.12.14) (REL-2-2-2)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -32,17 +32,17 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 10505,
+      "measurement_id": 11484,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "udpping",
-      "start_time": "2023-09-29 07:00:00",
+      "start_time": "2026-09-02 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0",
+      "logical_interface": "teliaprio0",
       "radio_silence_enabled": true,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
@@ -61,17 +61,17 @@
       "logical_interface": "telenor0"
     },
     {
-      "measurement_id": 10575,
+      "measurement_id": 11485,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "speedtest",
-      "start_time": "2024-05-06 12:00:00",
+      "start_time": "2026-09-02 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0"
+      "logical_interface": "teliaprio0"
     },
     {
       "measurement_id": 10736,
@@ -106,17 +106,17 @@
       "tcp_cc": null
     },
     {
-      "measurement_id": 10737,
+      "measurement_id": 11486,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "netperfmeter",
-      "start_time": "2024-09-24 00:00:00",
+      "start_time": "2026-09-02 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0",
+      "logical_interface": "teliaprio0",
       "runtime": 60,
       "format": "json",
       "compression": true,
@@ -136,26 +136,6 @@
       "tcp_incoming_frame_rate": 30,
       "tcp_incoming_frame_size": 8500,
       "tcp_cc": null
-    },
-    {
-      "measurement_id": 10768,
-      "measurement_desc_id": 25,
-      "measurement_desc": "Quic experiment",
-      "network_id": 1,
-      "mcc": "242",
-      "mnc": "01",
-      "iccid": null,
-      "container": "quic",
-      "start_time": "2024-12-10 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenor0",
-      "scheduler_run_interval_units": "d",
-      "scheduler_repeats": null,
-      "scheduler_run_interval": 1,
-      "scheduler_hours": [
-        15
-      ],
-      "service_path": "/100M.zip"
     },
     {
       "measurement_id": 11271,
@@ -181,48 +161,6 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
-    },
-    {
-      "measurement_id": 11449,
-      "measurement_desc_id": 27,
-      "measurement_desc": "Traceroute to Anycast",
-      "network_id": 1,
-      "mcc": "242",
-      "mnc": "01",
-      "iccid": null,
-      "container": "traceroute",
-      "start_time": "2026-07-28 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "telenor0",
-      "destination": "1.1.1.1",
-      "max_hops": 30,
-      "queries": 3,
-      "probe_timeout_seconds": 1.0,
-      "overall_timeout_seconds": 60.0,
-      "scheduling_type": "minutes",
-      "scheduling_period": 5,
-      "repeats": null
-    },
-    {
-      "measurement_id": 11450,
-      "measurement_desc_id": 27,
-      "measurement_desc": "Traceroute to Anycast",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "traceroute",
-      "start_time": "2026-07-28 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0",
-      "destination": "1.1.1.1",
-      "max_hops": 30,
-      "queries": 3,
-      "probe_timeout_seconds": 1.0,
-      "overall_timeout_seconds": 60.0,
-      "scheduling_type": "minutes",
-      "scheduling_period": 5,
-      "repeats": null
     }
   ]
 }
