@@ -1,6 +1,6 @@
 {
   "node_id": 7042,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Shadowhearth (CelerwayOS 2.12.14) (REL-2-2-2)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -32,17 +32,17 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 10486,
+      "measurement_id": 11491,
       "measurement_desc_id": 1,
       "measurement_desc": "RTT measurement",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "udpping",
-      "start_time": "2023-09-29 07:00:00",
+      "start_time": "2026-09-03 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0",
+      "logical_interface": "teliaprio0",
       "radio_silence_enabled": true,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
@@ -61,17 +61,17 @@
       "logical_interface": "telia0"
     },
     {
-      "measurement_id": 11134,
+      "measurement_id": 11492,
       "measurement_desc_id": 18,
       "measurement_desc": "Hourly speedtest",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "speedtest",
-      "start_time": "2025-07-30 00:00:00",
+      "start_time": "2026-09-03 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0"
+      "logical_interface": "teliaprio0"
     },
     {
       "measurement_id": 10757,
@@ -106,17 +106,17 @@
       "tcp_cc": null
     },
     {
-      "measurement_id": 10758,
+      "measurement_id": 11490,
       "measurement_desc_id": 24,
       "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
-      "network_id": 18,
+      "network_id": 35,
       "mcc": "242",
-      "mnc": "14",
+      "mnc": "02",
       "iccid": null,
       "container": "netperfmeter",
-      "start_time": "2024-10-31 00:00:00",
+      "start_time": "2026-09-03 00:00:00",
       "stop_time": "None",
-      "logical_interface": "ice0",
+      "logical_interface": "teliaprio0",
       "runtime": 60,
       "format": "json",
       "compression": true,
