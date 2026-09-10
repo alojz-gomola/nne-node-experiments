@@ -1,6 +1,6 @@
 {
   "node_id": 4151,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Shadowhearth (CelerwayOS 2.12.14) (REL-2-2-2)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -46,6 +46,32 @@
       "radio_silence_enabled": true,
       "radio_silence_hour": 23,
       "radio_silence_duration_seconds": 300
+    },
+    {
+      "measurement_id": 11125,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 2,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telia0"
+    },
+    {
+      "measurement_id": 11126,
+      "measurement_desc_id": 18,
+      "measurement_desc": "Hourly speedtest",
+      "network_id": 18,
+      "mcc": "242",
+      "mnc": "14",
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2025-07-30 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "ice0"
     },
     {
       "measurement_id": 11127,
