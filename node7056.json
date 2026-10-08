@@ -1,6 +1,6 @@
 {
   "node_id": 7056,
-  "version": "Shadowhearth (CelerwayOS 2.12.14) (REL-2-2-2)",
+  "version": "Trixie Pixie (CelerwayOS 2.12.14) (REL-2-2-4)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -161,6 +161,48 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
+    },
+    {
+      "measurement_id": 11502,
+      "measurement_desc_id": 27,
+      "measurement_desc": "Traceroute to Anycast",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": null,
+      "container": "traceroute",
+      "start_time": "2026-10-08 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0",
+      "destination": "1.1.1.1",
+      "max_hops": 30,
+      "queries": 3,
+      "probe_timeout_seconds": 1.0,
+      "overall_timeout_seconds": 60.0,
+      "scheduling_type": "minutes",
+      "scheduling_period": 5,
+      "repeats": null
+    },
+    {
+      "measurement_id": 11503,
+      "measurement_desc_id": 27,
+      "measurement_desc": "Traceroute to Anycast",
+      "network_id": 35,
+      "mcc": "242",
+      "mnc": "02",
+      "iccid": null,
+      "container": "traceroute",
+      "start_time": "2026-10-08 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "teliaprio0",
+      "destination": "1.1.1.1",
+      "max_hops": 30,
+      "queries": 3,
+      "probe_timeout_seconds": 1.0,
+      "overall_timeout_seconds": 60.0,
+      "scheduling_type": "minutes",
+      "scheduling_period": 5,
+      "repeats": null
     }
   ]
 }
