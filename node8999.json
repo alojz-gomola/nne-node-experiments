@@ -75,6 +75,38 @@
             "tcp_incoming_frame_rate": 30,
             "tcp_incoming_frame_size": 8500,
             "tcp_cc": null
+        },
+        {
+            "measurement_id": 89995,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 2,
+            "mcc": null,
+            "mnc": null,
+            "iccid": null,
+            "container": "udpping",
+            "start_time": "2025-07-28 00:00:00",
+            "stop_time": "None",
+            "logical_interface": "telia0",
+            "radio_silence_enabled": false,
+            "radio_silence_hour": 23,
+            "radio_silence_duration_seconds": 300
+        },
+        {
+            "measurement_id": 89996,
+            "measurement_desc_id": 1,
+            "measurement_desc": "RTT measurement",
+            "network_id": 18,
+            "mcc": null,
+            "mnc": null,
+            "iccid": null,
+            "container": "udpping",
+            "start_time": "2025-07-28 00:00:00",
+            "stop_time": "None",
+            "logical_interface": "ice0",
+            "radio_silence_enabled": false,
+            "radio_silence_hour": 23,
+            "radio_silence_duration_seconds": 300
         }
     ]
 }
