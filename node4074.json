@@ -1,0 +1,48 @@
+{
+  "node_id": 4074,
+  "version": "Starlink COWs & XV (CelerwayOS 2.12.17,3.0.1) (REL-2-2-5)",
+  "instances": [
+    {
+      "measurement_id": 20001,
+      "measurement_desc_id": 0,
+      "measurement_desc": "Metadata collector",
+      "container": "metadata",
+      "start_time": "2023-12-14 12:00:00",
+      "stop_time": "None",
+      "pull_seconds": 1,
+      "collection_seconds": 15,
+      "export_mode": "monroe",
+      "json_indent": "None",
+      "results_compression": true
+    },
+    {
+      "measurement_id": 11522,
+      "measurement_desc_id": 1,
+      "measurement_desc": "RTT measurement",
+      "network_id": 6,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "udpping",
+      "start_time": "2026-11-10 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "owmanpack",
+      "radio_silence_enabled": false,
+      "radio_silence_hour": 23,
+      "radio_silence_duration_seconds": 300
+    },
+    {
+      "measurement_id": 11523,
+      "measurement_desc_id": 16,
+      "measurement_desc": "Combined speedtest.net and web page load test",
+      "network_id": 6,
+      "mcc": null,
+      "mnc": null,
+      "iccid": null,
+      "container": "speedtest",
+      "start_time": "2026-11-10 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "owmanpack"
+    }
+  ]
+}

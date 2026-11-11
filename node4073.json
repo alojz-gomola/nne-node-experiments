@@ -1,6 +1,6 @@
 {
   "node_id": 4073,
-  "version": "Mi-Ma (CelerwayOS 2.12.14) (REL-2-2-0)",
+  "version": "Starlink COWs & XV (CelerwayOS 2.12.17,3.0.1) (REL-2-2-5)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -43,38 +43,6 @@
       "start_time": "2025-09-16 14:00:00",
       "stop_time": "None",
       "logical_interface": "oneweb"
-    },
-    {
-      "measurement_id": 11363,
-      "measurement_desc_id": 24,
-      "measurement_desc": "TCP and UDP FLOW for 60 seconds, every 6 hours",
-      "network_id": 6,
-      "mcc": null,
-      "mnc": null,
-      "iccid": null,
-      "container": "netperfmeter",
-      "start_time": "2025-08-07 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "oneweb",
-      "runtime": 60,
-      "format": "json",
-      "compression": true,
-      "store_netperf_config": false,
-      "repeats": null,
-      "run_interval": 30,
-      "run_interval_units": "m",
-      "udp_enabled": true,
-      "udp_outgoing_frame_rate": 30,
-      "udp_outgoing_frame_size": 8500,
-      "udp_incoming_frame_rate": 30,
-      "udp_incoming_frame_size": 8500,
-      "udp_cc": null,
-      "tcp_enabled": false,
-      "tcp_outgoing_frame_rate": 30,
-      "tcp_outgoing_frame_size": 8500,
-      "tcp_incoming_frame_rate": 30,
-      "tcp_incoming_frame_size": 8500,
-      "tcp_cc": null
     }
   ]
 }
