@@ -1,6 +1,6 @@
 {
   "node_id": 7060,
-  "version": "Elie (CelerwayOS 2.12.6) (REL-2-1-0)",
+  "version": "Starlink COWs & XV (CelerwayOS 2.12.17,3.0.1) (REL-2-2-5)",
   "instances": [
     {
       "measurement_id": 20001,
@@ -32,22 +32,6 @@
       "radio_silence_duration_seconds": 300
     },
     {
-      "measurement_id": 10513,
-      "measurement_desc_id": 1,
-      "measurement_desc": "RTT measurement",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "udpping",
-      "start_time": "2023-09-29 07:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0",
-      "radio_silence_enabled": true,
-      "radio_silence_hour": 23,
-      "radio_silence_duration_seconds": 300
-    },
-    {
       "measurement_id": 10552,
       "measurement_desc_id": 16,
       "measurement_desc": "Combined speedtest.net and web page load test",
@@ -59,19 +43,6 @@
       "start_time": "2023-11-06 00:00:00",
       "stop_time": "None",
       "logical_interface": "telenor0"
-    },
-    {
-      "measurement_id": 10553,
-      "measurement_desc_id": 16,
-      "measurement_desc": "Combined speedtest.net and web page load test",
-      "network_id": 18,
-      "mcc": "242",
-      "mnc": "14",
-      "iccid": null,
-      "container": "speedtest",
-      "start_time": "2023-11-06 00:00:00",
-      "stop_time": "None",
-      "logical_interface": "ice0"
     },
     {
       "measurement_id": 11275,
@@ -97,6 +68,27 @@
       "interface_update": true,
       "modem_restart": true,
       "json_indent": null
+    },
+    {
+      "measurement_id": 11564,
+      "measurement_desc_id": 27,
+      "measurement_desc": "Traceroute to Anycast",
+      "network_id": 1,
+      "mcc": "242",
+      "mnc": "01",
+      "iccid": "89470000221020141538",
+      "container": "traceroute",
+      "start_time": "2026-11-11 00:00:00",
+      "stop_time": "None",
+      "logical_interface": "telenor0",
+      "destination": "1.1.1.1",
+      "max_hops": 30,
+      "queries": 3,
+      "probe_timeout_seconds": 1.0,
+      "overall_timeout_seconds": 60.0,
+      "scheduling_type": "minutes",
+      "scheduling_period": 5,
+      "repeats": null
     }
   ]
 }
